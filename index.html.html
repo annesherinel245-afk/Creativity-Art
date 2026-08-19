@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Artistry | Art & Creativity Gallery</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+
+    <div class="container">
+
+        <a class="navbar-brand custom-logo" href="#home">
+            <span class="logo-icon"> <i class="bi bi-palette"></i> </span>
+            <span> Artistry </span>
+        </a>
+
+        <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link active" href="#home"> <i class="bi bi-house-door"></i> Home </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link" href="#gallery">
+                        <i class="bi bi-images"></i> Gallery </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link" href="#categories">
+                        <i class="bi bi-grid"></i> Categories </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link" href="#about">
+                        <i class="bi bi-info-circle"></i> About </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link" href="#contact">
+                        <i class="bi bi-envelope"></i> Contact </a>
+                </li>
+                <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                    <a href="#gallery" class="nav-gallery-btn"> View Art
+                <i class="bi bi-arrow-right"></i> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <p class="hero-subtitle">  ART • CREATIVITY • EXPRESSION </p>
+            <h1> Where Ideas<br> Become Art </h1>
+            <p> Welcome to Artistry, a visual gallery celebrating
+                creativity, imagination, colors, and the beauty
+                of artistic expression. </p>
+            <a href="#gallery" class="hero-btn"> Explore Gallery <i class="bi bi-arrow-right"></i> </a>
+        </div>
+    </div>
+</section>
+
+<section class="category-area" id="categories">
+    <div class="container">
+        <div class="section-title">
+            <span>EXPLORE</span>
+            <h2>Art Categories</h2>
+            <p>
+                Discover different forms of creativity represented
+                throughout our collection.
+            </p>
+        </div>
+
+        <div class="text-center">
+            <span class="category-badge"> <i class="bi bi-brush"></i> Painting </span>
+            <span class="category-badge"> <i class="bi bi-pencil"></i> Drawing </span>
+            <span class="category-badge"> <i class="bi bi-camera"></i> Photography </span>
+            <span class="category-badge"> <i class="bi bi-vector-pen"></i> Digital Art </span>
+            <span class="category-badge"> <i class="bi bi-flower1"></i> Nature Art </span>
+            <span class="category-badge"> <i class="bi bi-stars"></i> Abstract </span>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="container">
+        <div class="section-title">
+            <span>OUR COLLECTION</span>
+            <h2>Creative Gallery</h2>
+            <p>
+                A collection of artworks that celebrates imagination,
+                creativity, and visual storytelling.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=900&q=80"
+                            alt="Colors of Emotion">
+
+                        <div class="image-overlay">
+
+                            <label for="artModal1">
+                                <span>
+                                    <i class="bi bi-eye"></i>
+                                    View Artwork
+                                </span>
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Painting
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Colors of Emotion
+                        </h3>
+
+                        <p class="card-text">
+                            A vibrant abstract painting inspired
+                            by emotions and movement.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=900&q=80"
+                            alt="Creative Motion">
+
+                        <div class="image-overlay">
+                            <span>
+                                Abstract Art
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Abstract
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Creative Motion
+                        </h3>
+
+                        <p class="card-text">
+                            Shapes and colors combine to create
+                            a feeling of movement.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?auto=format&fit=crop&w=900&q=80"
+                            alt="Inner World">
+
+                        <div class="image-overlay">
+                            <span>
+                                Modern Art
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Modern
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Inner World
+                        </h3>
+
+                        <p class="card-text">
+                            A modern artwork representing thoughts
+                            and imagination.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=900&q=80"
+                            alt="Golden Light">
+
+                        <div class="image-overlay">
+                            <span>
+                                Classic
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Painting
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Golden Light
+                        </h3>
+
+                        <p class="card-text">
+                            Warm tones create a peaceful artistic
+                            atmosphere.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?auto=format&fit=crop&w=900&q=80"
+                            alt="Color Harmony">
+
+                        <div class="image-overlay">
+                            <span>
+                                Canvas
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Canvas
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Color Harmony
+                        </h3>
+
+                        <p class="card-text">
+                            A combination of bold colors forming
+                            a balanced composition.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card gallery-card">
+                    <div class="image-wrapper">
+                        <img src="https://img.freepik.com/premium-photo/whimsical-red-white-landscape-8k_1023080-12.jpg" 
+                         alt="Dreamscape">
+                        <div class="image-overlay">
+                            <span> Creativity </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Creative
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Dreamscape
+                        </h3>
+
+                        <p class="card-text">
+                            A dreamlike composition filled with
+                            artistic imagination.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=900&q=80"
+                            alt="Human Expression">
+
+                        <div class="image-overlay">
+                            <span>
+                                Portrait
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Portrait
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Human Expression
+                        </h3>
+
+                        <p class="card-text">
+                            A portrait exploring personality through
+                            artistic expression.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&w=900&q=80"
+                            alt="Visual Rhythm">
+
+                        <div class="image-overlay">
+                            <span>
+                                Design
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Design
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Visual Rhythm
+                        </h3>
+
+                        <p class="card-text">
+                            Lines and forms create a unique
+                            visual rhythm.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&w=900&q=80"
+                            alt="Form and Shape">
+
+                        <div class="image-overlay">
+                            <span>
+                                Sculpture
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Sculpture
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Form & Shape
+                        </h3>
+
+                        <p class="card-text">
+                            Three-dimensional creativity expressed
+                            through artistic form.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1578301978018-3005759f48f7?auto=format&fit=crop&w=900&q=80"
+                            alt="Artistic Space">
+
+                        <div class="image-overlay">
+                            <span>
+                                Gallery
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Gallery
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Artistic Space
+                        </h3>
+
+                        <p class="card-text">
+                            A peaceful environment where creativity
+                            comes to life.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 col-xl-3">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="image/image/OIP (1).webp"
+                            alt="Artist Tools">
+
+                        <div class="image-overlay">
+                            <span>
+                                Creativity
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Creative Tools
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Artist's Tools
+                        </h3>
+
+                        <p class="card-text">
+                            Every creative work begins with tools,
+                            imagination, and inspiration.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-8">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?auto=format&fit=crop&w=1200&q=80"
+                            alt="Power of Imagination">
+
+                        <div class="image-overlay">
+                            <span>
+                                Featured Artwork
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Featured
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            The Power of Imagination
+                        </h3>
+
+                        <p class="card-text">
+                            Art gives us the freedom to transform ideas,
+                            feelings, and imagination into something visual.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-4">
+
+                <div class="card gallery-card">
+
+                    <div class="image-wrapper">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=80"
+                            alt="Creative Journey">
+
+                        <div class="image-overlay">
+                            <span>
+                                Inspiration
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <span class="art-tag">
+                            Inspiration
+                        </span>
+
+                        <h3 class="card-title mt-3">
+                            Creative Journey
+                        </h3>
+
+                        <p class="card-text">
+                            A reminder that every artwork begins
+                            with a simple idea.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<input
+    type="checkbox"
+    id="artModal1"
+    class="modal-toggle">
+
+<div class="css-modal">
+
+    <div class="css-modal-content">
+
+        <label
+            for="artModal1"
+            class="modal-close">
+
+            <i class="bi bi-x"></i>
+
+        </label>
+
+        <img
+            src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1400&q=90"
+            class="css-modal-image"
+            alt="Colors of Emotion">
+
+        <div class="modal-info">
+
+            <span class="art-tag">
+                Featured Painting
+            </span>
+
+            <h3 class="mt-3">
+                Colors of Emotion
+            </h3>
+
+            <p>
+                This artwork explores the connection between colors,
+                emotions, and imagination. The combination of vibrant
+                shades represents different feelings and perspectives
+                that people experience in everyday life.
+            </p>
+
+            <p>
+                Art allows an artist to communicate ideas and emotions
+                without relying only on words.
+            </p>
+
+            <label
+                for="artModal1"
+                class="btn btn-dark rounded-pill px-4">
+
+                Close Artwork
+
+            </label>
+
+        </div>
+
+    </div>
+
+</div>
+
+<section class="about-section" id="about">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-12 col-md-5">
+
+                <img
+                    src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1000&q=85"
+                    alt="Artist Working"
+                    class="about-image">
+
+            </div>
+
+            <div class="col-12 col-md-7">
+
+                <div class="about-content">
+
+                    <span>
+                        ABOUT ARTISTRY
+                    </span>
+
+                    <h2>
+                        Creativity Has No Limits
+                    </h2>
+
+                    <p>
+                        Artistry is a digital gallery created to celebrate
+                        the beauty of art and creativity. Our collection
+                        features paintings, abstract designs, portraits,
+                        sculptures, and other forms of artistic expression.
+                    </p>
+
+                    <p>
+                        We believe that art gives people the freedom to
+                        express ideas, emotions, stories, and experiences
+                        in their own unique way.
+                    </p>
+
+                    <details>
+
+                        <summary>
+                            What is our purpose?
+                        </summary>
+
+                        <p class="mt-3 mb-0">
+                            Our purpose is to provide an inspiring online
+                            space where people can explore different forms
+                            of art and appreciate creative expression.
+                        </p>
+
+                    </details>
+
+                    <details>
+
+                        <summary>
+                            Why is creativity important?
+                        </summary>
+
+                        <p class="mt-3 mb-0">
+                            Creativity encourages people to think differently,
+                            solve problems, communicate ideas, and express
+                            their individuality.
+                        </p>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>GET IN TOUCH</span>
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Have an artwork or creative idea you want to share?
+                Send us a message.
+            </p>
+
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-10 col-lg-8">
+
+                <div class="contact-card">
+
+                    <form>
+
+                        <div class="row g-3">
+
+                            <div class="col-12 col-md-6">
+
+                                <label class="form-label">
+                                    Full Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Enter your name">
+
+                            </div>
+
+                            <div class="col-12 col-md-6">
+
+                                <label class="form-label">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="Enter your email">
+
+                            </div>
+
+                            <div class="col-12">
+
+                                <label class="form-label">
+                                    Subject
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Message subject">
+
+                            </div>
+
+                            <div class="col-12">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Write your message here..."></textarea>
+
+                            </div>
+
+                            <div class="col-12 text-center">
+
+                                <button
+                                    type="submit"
+                                    class="submit-btn">
+
+                                    <i class="bi bi-send"></i>
+                                    Send Message
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="container">
+
+        <h3>
+            <i class="bi bi-palette"></i>
+            Artistry
+        </h3>
+
+        <p>
+            Celebrating imagination, creativity,
+            and artistic expression.
+        </p>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="bi bi-pinterest"></i>
+            </a>
+
+            <a href="#">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+
+        </div>
+
+        <hr>
+
+        <small>
+            © 2026 Artistry Gallery | Art & Creativity
+        </small>
+
+    </div>
+
+</footer>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
